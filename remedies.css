@@ -1,0 +1,75 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	outline: 0px;
+}
+
+body {
+	background-image: url("remedies_images/background1920x1080.jpg");
+	background-size: auto;
+	background-repeat: no-repeat;
+	font-family: Merienda, cursive;
+	display: flex;
+}
+
+.page{
+	height: 100%;
+	width: 49%;
+}
+
+#title{
+	margin: 2% auto auto 5%;
+	font-size: 3rem;
+	width: 90%;
+}
+
+@media all and (max-width: 520px){
+	#title{
+		font-size: 2rem;
+	}
+}
+
+#subtitle{
+	font-size: 1rem;
+	margin-left: 5%;
+	width: 90%;
+}
+
+ul{
+	margin-left: 10%;
+	margin-top: 8%;
+}
+
+
+li{
+	margin: 1% auto;
+}
+
+
+/* RIGHT PAGE */
+
+img {
+	width: 70%;
+	height: 35%;
+	margin-top: 7%;
+	margin-left: 10%;
+	border-radius: 5%;
+	opacity: 0.6;
+}
+
+p {
+	font-size: 0.8rem;
+	width: 65%;
+	height: 40%;
+	overflow-y: auto;
+	margin-top: 2%;
+	margin-left: 12%;
+}
+
+#ad {
+	height: 10%;
+	margin-bottom: 4%;
+	margin-left: 10%;
+	width: 60%;
+}
